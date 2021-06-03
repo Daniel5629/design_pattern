@@ -3,6 +3,16 @@ package adapter;
 public class AdapterMain {
 
     public static void main(String[] args) {
+        /**
+         * <어댑터 패턴>
+         * 호환성이 없는 기존 클래스의 인터페이스를 변환하여
+         * 재사용 할 수 있도록 한다.
+         *
+         * SOLID PRINCIPLE
+         * 개방 폐쇄 원칙(open-closed principle) 을 따른다.
+         */
+
+
         Electronic220V galaxyCharger = new GalaxyCharger220V();
         turnOn(galaxyCharger);
 
