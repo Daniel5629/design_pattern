@@ -4,7 +4,7 @@ public class ProxyMain {
     public static void main(String[] args) {
         /**
          * <프록시 패턴>
-         * Proxy(대리인) class를 통해서 대신 정달하는 형태
+         * Proxy(대리인) class를 통해서 대신 전달하는 형태
          * 실제 사용자는 Proxy로부터 결과를 받는다.
          * Cache의 기능으로도 활용이 가능하다.
          *
