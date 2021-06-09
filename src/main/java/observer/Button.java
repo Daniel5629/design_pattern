@@ -8,11 +8,11 @@ public class Button {
         this.name = name;
     }
 
-    public void click(String message) {
-        buttonListener.clickEvent(message);
-    }
-
     public void addListener(IButtonListener buttonListener) {
         this.buttonListener = buttonListener;
+    }
+
+    public void click(String message) {
+        buttonListener.clickEvent(message);
     }
 }
